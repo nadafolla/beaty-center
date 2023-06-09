@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coif</title>
+    <link rel="stylesheet" href="ind.css">
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>D</span>edou <span>C</span>enter</a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="ul-">
+            <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            <li><a href="#reservation" class="btn" onclick="toggleMenu();">Reservation</a></li>
+        </ul>
+    </header>
+   
+        <div class="rowspan">
+            <div class="colspan">
+                <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+                <p> Chez Dedou Professionnal, la satisfaction de notre clientèle est primordiale. Nous vous proposons ainsi un large choix de services qui pourrons satisfaire vos désirs.
+
+                    Notre équipe de coiffeurs est présente pour répondre au mieux à vos attentes et prendre soin de vos cheveux. Ils ont été tous formés en école professionnelle de coiffure et utilisent les meilleurs outils professionnels et des produits de qualité pour vous garantir une prestation unique et hautement qualitative.
+                </p>
+            </div>
+            <div class="colspan">
+                <div id="gallery">
+
+                </div>
+            </div>
+        </div>
+        
+ 
+    <section class="contact" id="contact">
+        <div class="titre noir">
+            <h2 class="titre-texte"><span>C</span>ontact</h2>
+            <h4>Contact Information</h4>
+            <ul>
+                <li><span class="label">Address:</span>Jemmel rue tayeb</li>
+                <li><span class="label">Telephone:</span> +216 234 567 890</li>
+                <li><span class="label">Email:</span> asiasiil@gmail.com</li>
+            </ul>
+             
+    </section>
+    <section id="reservation">
+        <h2 class="titre-texte"><span>R</span>eservation</h2>
+        <h2 class="title"> fill this form to make a reservation</h2>
+        <form action="">
+            <label> Your Name</label>
+            <input type="text">
+            <label> Your Email</label>
+            <input type="email">
+            <label> Your Number</label>
+            <input type="text">
+            <label> Reservation Date</label>
+            <input type="date">
+            <input type="submit" value="Make The Reservation">
+            
+        </form>
+      </section>
+   
+    <script src="ind.js"></script>
+   </body>
+</html>
